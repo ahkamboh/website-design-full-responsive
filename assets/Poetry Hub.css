@@ -9,6 +9,9 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+::selection{
+    background: #188967;
+}
 /* -------------------------Navbar and logo links----------------------------------------------------------------------------------------- */
 
 .Navbar {
