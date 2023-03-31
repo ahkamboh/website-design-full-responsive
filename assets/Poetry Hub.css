@@ -7,11 +7,9 @@ body {
     font-family: 'Josefin Slab', serif;
     font-family: 'Poiret One', cursive;
     font-family: 'Poppins', sans-serif;
-    background-color:#1b5849;
+    background-color: #1b5849;
+ 
 
-}
-::selection{
-    background: #188967;
 }
 /* -------------------------Navbar and logo links----------------------------------------------------------------------------------------- */
 
@@ -230,11 +228,11 @@ button:hover {
 
     position: relative;
     top: 60%;
-    left: 27%;
+    left: 30%;
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: -2;
-    width:900px;
+    width: 1000px;
     height: 300px;
     animation: slider 20s alternate-reverse infinite;
 
@@ -291,7 +289,7 @@ button:hover {
     cursor: pointer;
     position: relative;
     box-shadow: 0px 0px 30px 1px rgba(125, 119, 119, 0.264);
-    top: 14rem;
+    top: 20rem;
     left: 10%;
 }
 
@@ -356,6 +354,7 @@ button:hover {
     transform: translate(-50%, -50%);
     overflow: hidden;
     display: flex;
+    height: 100px;
 
 }
 
@@ -411,10 +410,9 @@ body {
 
 body {
     background-image: url(pexels-nothing-ahead-6924268.jpg);
-
     background-size: cover;
     background-size: 100%;
-
+height: 100vh;
 }
 
 /* -------------------------<!-- Responsive-->----------------------------------------------------------------------------------------- */
@@ -463,7 +461,7 @@ body {
     }
 
     .button {
-        top: -40px;
+        top: -35px;
         transform: scale(.7);
         left: 0%;
     }
@@ -491,11 +489,16 @@ body {
         overflow: hidden;
         position: absolute;
         left: 50%;
-        top: 65%;
-        transform: translate(-50%, -50%) scale(.6);
+        
+            top: 440px;
+            transform: translate(-50%, -250px) scale(.6);
+    
         z-index: 1;
 
+ 
     }
+   
+
 }
 
 @media (max-width:600px) {
@@ -541,8 +544,8 @@ body {
     }
 
     .submit {
-        transform: translate(-50%, -50%) scale(.6);
-        bottom: -25px;
+        transform: translate(-50%, -20px) scale(.4);
+        top: 615px;
     }
 }
 
@@ -564,10 +567,7 @@ body {
         transform: scale(.4);
     }
 
-    .submit {
-        transform: translate(-50%, -50%) scale(.4);
-        bottom: -38px;
-    }
+    
 }
 
 @media (max-width:350px) {
@@ -583,8 +583,8 @@ body {
     }
 
     .main {
-        
-        transform: translate(-50%, -50%) scale(.6);
+        top: 350px;
+        transform: translate(-50%, -250px) scale(.6);
 
     }
 
@@ -617,6 +617,11 @@ body {
         line-height: 25px;
 
     }
+
+    .submit {
+        transform: translate(-50%, -20px) scale(.4);
+        top: 520px;
+    }
 }
 
 @media (max-width:300px) {
@@ -631,6 +636,11 @@ body {
 
     }
 
+    .main {
+        top: 400px;
+        transform: translate(-50%, -250px) scale(.6);
+
+    }
     .logo img {
         transform: scale(.6);
         position: relative;
@@ -640,8 +650,12 @@ body {
 
     .button {
         left: 0;
-        top: -6.4em;
+        top: -8em;
         transform: scale(.4);
+    }
+    .submit {
+        transform: translate(-50%, -20px) scale(.4);
+        top: 590px;
     }
 }
  /* ------------------------End of responsive design-->----------------------------------------------------------------------------------------- */
