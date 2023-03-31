@@ -226,11 +226,11 @@ button:hover {
 
     position: relative;
     top: 60%;
-    left: 30%;
+    left: 27%;
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: -2;
-    width: 1000px;
+    width:900px;
     height: 300px;
     animation: slider 20s alternate-reverse infinite;
 
@@ -287,7 +287,7 @@ button:hover {
     cursor: pointer;
     position: relative;
     box-shadow: 0px 0px 30px 1px rgba(125, 119, 119, 0.264);
-    top: 20rem;
+    top: 14rem;
     left: 10%;
 }
 
