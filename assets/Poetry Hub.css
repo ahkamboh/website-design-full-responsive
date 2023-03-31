@@ -572,8 +572,7 @@ body {
 @media (max-width:350px) {
 
     .slider {
-        position: relative;
-        top: 80px;
+    
         left: 0%;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -583,20 +582,20 @@ body {
     }
 
     .main {
-top: 370px;
-        transform: translate(-50%, -250px) scale(.6);
+        
+        transform: translate(-50%, -50%) scale(.6);
 
     }
 
     .button {
         left: 0;
-        top: -8.4em;
+        top: -9.3em;
         transform: scale(.4);
 
     }
 
     .slider {
-        top: 50px;
+        top: 30px;
     }
 
     .logo img {
@@ -617,7 +616,6 @@ top: 370px;
         line-height: 25px;
 
     }
-
 }
 
 @media (max-width:300px) {
