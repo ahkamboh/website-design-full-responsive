@@ -583,8 +583,8 @@ body {
     }
 
     .main {
-
-        transform: translate(-50%, -50%) scale(.6);
+top: 370px;
+        transform: translate(-50%, -250px) scale(.6);
 
     }
 
