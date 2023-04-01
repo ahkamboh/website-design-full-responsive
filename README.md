@@ -7,7 +7,8 @@ Slide Pages
 <br>
 Other Pages 
 <br>
-![Output](https://user-images.githubusercontent.com/123060177/229090307-a61a2033-de2a-45a0-946a-e4b0d3d0548a.gif)
+![Uploading ezgif.com-video-to-gif (6).gif…]()
+<!-- ![Output](https://user-images.githubusercontent.com/123060177/229090307-a61a2033-de2a-45a0-946a-e4b0d3d0548a.gif) -->
 # Mobile view 
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/123060177/229096986-7e6601be-b493-478a-a436-404c3c4b9385.gif)
 <br>
