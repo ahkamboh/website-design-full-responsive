@@ -1904,3 +1904,8 @@ body {
         box-shadow: 0 0 2vw 0.4vw #00ffb3;
     }
 }
+@media (max-width:500px) {
+::-webkit-scrollbar {
+  width: 0em;
+  height: 0em;
+}
